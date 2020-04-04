@@ -6,9 +6,11 @@ spring:
 ---
 spring:
  profiles: dev  #开发环境
- application: config-dev
+ application: 
+  name: config-dev
 
 ---
 spring:
  profiles: test  #开发环境
- application: config-test
+ application: 
+  name: config-test
